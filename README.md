@@ -16,6 +16,7 @@ Problems are categorized by topic:
 | ID  | Problem | Difficulty | Topic | Link                               |
 |-----|---------|------------|-------|------------------------------------|
 | 1   | Two Sum | Easy       | Array | [View](src/arrays/0001-two-sum.py) |
+| 2   | Longest Palindromic Substring | Medium       | Array | [View](src/arrays/0005-longest-palindrome-substring.py) |
 
 ---
 *Note: Solutions are for educational purposes.*
