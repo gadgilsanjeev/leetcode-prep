@@ -20,6 +20,7 @@ Problems are categorized by topic:
 | 3   | Add Two Numbers | Medium       | Array | [View](src/arrays/0002-add-two-numbers.py) |
 | 4   | Median of Two Sorted Arrays | Hard       | Array | [View](src/arrays/0004-median-of-two-sorted-arrays.py) |
 | 5   | Longest Substring Without Repeating Characters | Medium       | Array | [View](src/arrays/0003-longest-substring-without-repeating-characters.py) |
+| 5   | Longest Common Prefix | Easy       | Array | [View](src/arrays/0014-longest-common-prefix.py) |
 
 ---
 *Note: Solutions are for educational purposes.*
