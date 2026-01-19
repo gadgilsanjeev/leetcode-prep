@@ -1,4 +1,4 @@
-# Problem Title: longest-palindromic-substring
+# Problem Title: Longest Palindromic Substring
 # LeetCode Link: https://leetcode.com/problems/longest-palindromic-substring/description/
 # Difficulty: Medium
 # Topics: Array
