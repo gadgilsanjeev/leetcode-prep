@@ -1,0 +1,25 @@
+# Problem Title
+# LeetCode Link: [Paste Link Here]
+# Difficulty: [Easy/Medium/Hard]
+# Topics: [Array, Hash Table, etc.]
+
+"""
+Explanation:
+    [Briefly explain your logic here in 1-2 sentences]
+
+Complexity:
+    Time: O(n) - Explain why
+    Space: O(n) - Explain why
+"""
+
+from typing import List  # Import common types as needed
+
+class Solution:
+    def functionName(self, params: type) -> return_type:
+        # Write your code here
+        pass
+
+# Test the solution locally (Optional but helpful)
+# if __name__ == "__main__":
+#     sol = Solution()
+#     print(sol.functionName(test_input))
