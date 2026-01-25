@@ -1,0 +1,39 @@
+# Problem Title
+# LeetCode Link: [Paste Link Here]
+# Difficulty: [Easy/Medium/Hard]
+# Topics: [Array, Hash Table, etc.]
+
+"""
+Explanation:
+    [Briefly explain your logic here in 1-2 sentences]
+
+Complexity:
+    Time: O(n) - Explain why
+    Space: O(n) - Explain why
+"""
+
+from typing import List  # Import common types as needed
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        phone_dict = {"2": ['a', 'b', 'c'], "3": ['d', 'e', 'f'], "4": ['g', 'h', 'i'], "5": ['j', 'k', 'l'], "6": ['m', 'n', 'o'], "7": ['p', 'q', 'r', 's'], "8": ['t', 'u', 'v'], "9": ['w', 'x', 'y', 'z']}
+        if digits:
+            final_list = phone_dict[digits[0]]
+            for i in digits[1::]:
+                final_list = self.generate_combinations(final_list, i, phone_dict)
+            return final_list
+        else:
+            return []
+
+    def generate_combinations(self, current: List[str], digit: int, phone_dict: dict) -> List[str]:
+        temp = []
+        for el in current:
+            for new in phone_dict[digit]:
+                temp.append(el+new)
+        return temp
+
+
+# Test the solution locally (Optional but helpful)
+if __name__ == "__main__":
+    sol = Solution()
+    digits = "2345"
+    print(sol.letterCombinations(digits))

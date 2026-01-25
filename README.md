@@ -13,17 +13,17 @@ Problems are categorized by topic:
 
 ## 📊 Problems Solved
 
-| ID  | Problem | Difficulty | Topic | Link                               |
-|-----|---------|------------|-------|------------------------------------|
-| 1   | Two Sum | Easy       | Array | [View](src/arrays/0001-two-sum.py) |
-| 2   | Longest Palindromic Substring | Medium       | Array | [View](src/arrays/0005-longest-palindrome-substring.py) |
-| 3   | Add Two Numbers | Medium       | Array | [View](src/arrays/0002-add-two-numbers.py) |
-| 4   | Median of Two Sorted Arrays | Hard       | Array | [View](src/arrays/0004-median-of-two-sorted-arrays.py) |
-| 5   | Longest Substring Without Repeating Characters | Medium       | Array | [View](src/arrays/0003-longest-substring-without-repeating-characters.py) |
-| 6   | Longest Common Prefix | Easy       | Array | [View](src/arrays/0014-longest-common-prefix.py) |
-| 7   | Longest Palindrome | Easy       | Array | [View](src/arrays/0009-palindrome-number.py) |
-| 8   | 3Sum | Medium       | Array | [View](src/arrays/0015-3sum.py) |
-
+| ID  | Problem | Difficulty | Topic | Link |
+|-----|---------|------------|-------|------|
+| 1 | Two Sum | Easy | Array | [View](src/arrays/0001-two-sum.py) |
+| 2 | Add Two Numbers | Medium | Arrays | [View](src/arrays/0002-add-two-numbers.py) |
+| 3 | Longest Substring Without Repeating Characters | Medium | Array | [View](src/arrays/0003-longest-substring-without-repeating-characters.py) |
+| 4 | Median of Two Sorted Arrays | Hard | Array | [View](src/arrays/0004-median-of-two-sorted-arrays.py) |
+| 5 | Longest Palindrome Substring | Medium | Array | [View](src/arrays/0005-longest-palindrome-substring.py) |
+| 9 | Palindrome Number | Unknown | Unknown | [View](src/arrays/0009-palindrome-number.py) |
+| 14 | Longest Common Prefix | Medium | Array | [View](src/arrays/0014-longest-common-prefix.py) |
+| 15 | 3Sum | Medium | Array | [View](src/arrays/0015-3sum.py) |
+| 17 | Letter  Combinations of a phone number | Medium | Array | [View](src/arrays/0015-3sum.py) |
 
 ---
 *Note: Solutions are for educational purposes.*

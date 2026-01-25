@@ -1,4 +1,5 @@
-# Problem Title
+# Title: [Problem Title]
+# ID: [Problem ID]
 # LeetCode Link: [Paste Link Here]
 # Difficulty: [Easy/Medium/Hard]
 # Topics: [Array, Hash Table, etc.]
@@ -12,14 +13,14 @@ Complexity:
     Space: O(n) - Explain why
 """
 
-from typing import List  # Import common types as needed
+from typing import List
 
 class Solution:
     def functionName(self, params: type) -> return_type:
         # Write your code here
         pass
 
-# Test the solution locally (Optional but helpful)
-# if __name__ == "__main__":
-#     sol = Solution()
-#     print(sol.functionName(test_input))
+# Test the solution locally
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.functionName(test_input))
